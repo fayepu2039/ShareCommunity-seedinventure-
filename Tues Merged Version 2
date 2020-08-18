@@ -3,6 +3,8 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Google Icons</title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <style>
 * {
   box-sizing:border-box;
@@ -210,20 +212,19 @@ input[type=submit]:hover {
   
  </di
 <!-- What do we do section -->
+<div class=".container">
+ <h1 class ="xlarge-font"><b>About us</b></h1>
+ <p><span style="font-size:30px"></span>Moving with happiness and laughter  </p>
 
-<h1 class ="xlarge-font"><b>About us</b></h1>
-
-<p><span style="font-size:30px"></span>Moving with happiness and laughter  </p>
-
-<div class="grid-container">
-  <div><h2 class = "medium-font" > Local Community Network </h2>
-<p>Just move in to a new community? Don’t worry. We will help you to connect with neighbours and build lasting relationships. </p> </div>
-  <div><h2 class = "medium-font"> Information Platform </h2>
-<p>With shared community’s help, you will be able to effectively tell your stories and exchange information with others. Here you can connect with your community or any other type of online community. </p></div>
-  <div><h2 class = "medium-font">Tech-driven </h2>
-<p>Our interactive system with algorithms empowers you to easily get detailed, accurate information by a few clicking.</p>
+  <div class="grid-container">
+   <div><i class="material-icons" style="font-size:112px">group_add</i><<h2 class = "medium-font" > Local Community Network </h2>
+   <p>Just move in to a new community? Don’t worry. We will help you to connect with neighbours and build lasting relationships. </p> </div>
+  <div><i class="material-icons" style="font-size:110px">devices</i><<h2 class = "medium-font"> Information Platform </h2>
+<p>With shared community’s help, you will be able to effectively tell your stories and exchange information with others. </p></div>
+  <div><i class="material-icons" style="font-size:110px">folder_shared</i><h2 class = "medium-font">Tech-driven </h2>
+<p>Our interactive system with algorithms empowers you to easily get detailed, accurate information by a few clicking.</p></div>
    </div>
-   </div>  
+   </div>
    
 <!-- The education Section -->
 <div class="container">
