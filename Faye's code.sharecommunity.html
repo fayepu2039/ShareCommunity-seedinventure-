@@ -15,7 +15,22 @@ body {
 .container {
   padding: 64px;
 }
+  
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #FFFFFF;
+  padding: 10px;
+}
 
+.grid-container > div {
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 15px;
+}
+  
 .row:after {
   content: "";
   display: table;
@@ -70,7 +85,21 @@ img {
 </style>
 </head>
 <body>
+<!-- What do we do section -->
+<h1><b>About us</b></h1>
 
+<p>Moving with happiness and laughter  </p>
+
+<div class="grid-container">
+  <div><h2> Local Community Network </h2>
+<p>Just move in to a new community? Don’t worry. We will help you to connect with neighbours and build lasting relationships. </p> </div>
+  <div><h2> Information Platform </h2>
+<p>With shared community’s help, you will be able to effectively tell your stories and exchange information with others. Here you can connect with your community or any other type of online community. </p></div>
+  <div><h2>Tech-driven </h2>
+<p>Our interactive system with algorithms empowers you to easily get detailed, accurate information by a few clicking.</p>
+   </div>
+   </div>  
+   
 <!-- The education Section -->
 <div class="container">
   <div class="row">
