@@ -218,7 +218,7 @@ input[type=submit]:hover {
 
   <div class="grid-container">
    <div><i class="material-icons" style="font-size:112px">group_add</i><h2 class = "medium-font" > Local Community Network </h2>
-   <p>Just move in to a new community? Don’t worry. We will help you to connect with neighbours and build lasting relationships. </p> </div>
+   <p>Just move to a new community? Don’t worry. We will help you to connect with neighbours and build lasting relationships. </p> </div>
   <div><i class="material-icons" style="font-size:110px">devices</i><h2 class = "medium-font"> Information Platform </h2>
 <p>With shared community’s help, you will be able to effectively tell your stories and exchange information with others. </p></div>
   <div><i class="material-icons" style="font-size:110px">folder_shared</i><h2 class = "medium-font">Tech-driven </h2>
