@@ -18,3 +18,193 @@ body {
 }
   
 .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #FFFFFF;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 15px;
+}
+  
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+.medium-font {
+  font-size: 35px;
+}
+
+.xlarge-font {
+  font-size: 55px
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container1 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+
+</head>
+<body>
+<!-- What do we do section -->
+<h1 class ="xlarge-font"><b>About us</b></h1>
+
+<p><span style="font-size:30px"></span>Moving with happiness and laughter  </p>
+
+<div class="grid-container">
+  <div><h2 class = "medium-font" > Local Community Network </h2>
+<p>Just move in to a new community? Don’t worry. We will help you to connect with neighbours and build lasting relationships. </p> </div>
+  <div><h2 class = "medium-font"> Information Platform </h2>
+<p>With shared community’s help, you will be able to effectively tell your stories and exchange information with others. Here you can connect with your community or any other type of online community. </p></div>
+  <div><h2 class = "medium-font">Tech-driven </h2>
+<p>Our interactive system with algorithms empowers you to easily get detailed, accurate information by a few clicking.</p>
+   </div>
+   </div>  
+   
+<!-- The education Section -->
+<div class="container">
+  <div class="row">
+    <div class="column-66">
+      <h1 class = "xlarge-font"><b>Information in ShareCommunity</b></h1>
+      <h1 class="large-font" style="color:MediumSeaGreen;"><b>Education</b></h1>
+      <p><span style="font-size:20px"> Moving to a new neighbourhood means the kids have to find a new school. Have trouble navigating education institutions due to limited connections in the new neighbourhood? Use ShareCommunity to discover top-rated articles about education resources in your region and connect with experts nearby.</p>
+    
+    <button class="button">READ MORE ABOUT EDUCATION</button>
+    </div>
+    <div class="column-33">
+   
+        <img src="https://www.meng123.net/uploads/181214/7-1Q21411425R34.png" width="335" height="471">
+    </div>
+  </div>
+</div>
+
+<!-- documentation Section -->
+<div class="container" style="background-color:#f1f1f1">
+  <div class="row">
+    <div class="column-33">
+      <img src="https://photo.mac69.com/180717/JPG-180717_191/MJeVFrvaEi_small.jpg" alt="App" width="335" height="471">
+    </div>
+    <div class="column-66">
+      <h1 class="large-font"><b>Documentation</b></h1>
+     <!-- <h1 class="large-font" style="color:red;"><b>Pixels, who?</b></h1> -->
+      <p><span style="font-size:20px"> Before settling down, there is often a laundry list of documents awaiting to be filled out and sent. Yet, not knowing where to go and what information is required makes the process even more challenging. But don't worry! Use ShareCommunity to find solutions for your concerns, while consulting a legal officer within your community with no charge.  </p>
+      <button class="button" style="background-color:red">READ MORE ABOUT DOCUMENTATION</button>
+    </div>
+  </div>
+</div>
+
+<!-- The entertainment Section -->
+<div class="container">
+  <div class="row">
+    <div class="column-66">
+      <!--<h1 class="large-font"><b>Entertainment</b></h1> -->
+      <h1 class="large-font" style="color:MediumSeaGreen;"><b> Entertainment</b></h1>
+      <p><span style="font-size:20px">Seeing seniors in your household feeling a bit lonely at home, do you want to help them find resources for entertainment and people to make friends with? Use ShareCommunity to check out fun activities in the community and share the findings with your erderly loved ones.</p>
+      <button class="button">READ MORE ABOUT ENTERTAINMENT</button>
+    </div>
+    <div class="column-33">
+        <img src="https://img.laonanren.com/upload2/2015-12/15121615223485.jpg" width="335" height="471" >
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+<h2 class="medium-font">Contact Us</h2>
+<p style="color: #000">Have questions? Contact us today to discuss how we can help you!</p >
+
+<div class="container1">
+  <form action="/action_page.php">
+    <label for="fname">Full Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+    <label for="Email Address">Email Address</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your Email">
+    
+    <label for="select-beast">I'm Interested In:</label>
+    <select id="select-beast" class="demo-default" placeholder="Select a service...">
+      <option value="Eduction">Education</option>
+      <option value="Documentation">Documentation</option>
+      <option value="Entertainment">Entertainment</option>
+      <option value="Community Network">Community Network</option>
+    </select>
+
+    <label for="Message">Message</label>
+    <textarea id="Message" name="Message" placeholder="Write something.." style="height:100px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
