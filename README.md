@@ -1,2 +1,0 @@
-# ShareCommunity-seedinventure-
-Group Project
