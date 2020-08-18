@@ -183,6 +183,30 @@ input[type=submit]:hover {
 </body>
 </html>
 
+
+ <!---Client Experience Section-->
+        <section id="client experience">
+        <div class="container" style="background-color:#f1f1f1">
+            <div class="row">
+                <div class="column-66">
+                
+                <h2 style="text-align: center; color:maroon; font: size 40px;">Client Experience</h2>
+                <img src="http://www.3farmer.com/uploads/allimg/180516/23022WY2-0.jpg"alt="Guoqiang" width="435"height="571"></img>
+                <h4 style="color:indianred;font-size: 20px; font:Helvetica;">Let's hear from Guoqiang, one of the very firest ShareCommunity users...</h4>
+                <p font-size: 20px; font:Helvetica;">Guoqiang has been living in one of the rural counties near by Shanghai for centuries with his family. The family grows and sells some crops and vegetable for living, and Guoqiang works as a constructor from time to time.</p>
+                <p font-size: 20px; font:Helvetica;">Half a year ago, a paper with a title of Notice of House Removal changed Guoqiang and his family’s life. Due to urbanization in his, and also some nearby, counties. As his house being demolished, he and his family were relocated to a newly built neighbourhood in the inner suburb of Shanghai. </p>
+                <p font-size: 20px; font:Helvetica;">As one of the rural-to-urban migrants, Guoqiang was nervour, rather than excited, about the new life.  </p>
+                <p font-size: 20px; font:Helvetica;">"I had no idea what my life is going to be like," says Guoqiang, "Me and my wife needed jobs. My mom was complaining and sick of having nothing to do at home. What worried me the most, was finding a new school for [my daughter]. At the same time, there were sill all sorts of papers they asked me I need to fill out." </p>
+                <p font-size: 20px; font:Helvetica;">Gladly, the neighbourhood committee introduced him with ShareCommunity and one of the on-site ambassadors, helped him navigate the website. </p>
+                <p font-size: 20px; font:Helvetica;"">"I had no idea there was a website offering some much information to people like me. And unlike those girls in the certification centre, the amobassador was so nice and patient."</p>
+                <p font-size: 20px; font:Helvetica;">"I am so glad ShareCommunity was there helping me settle down. I have also introduced in my pals on the construction site, and they all found it pretty useful. " </p>
+                
+                </div>
+            </div>
+        </div>
+        </section>  
+
+
 <h2 class="medium-font">Contact Us</h2>
 <p style="color: #000">Have questions? Contact us today to discuss how we can help you!</p >
 
