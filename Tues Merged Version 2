@@ -129,10 +129,16 @@ input[type=submit]:hover {
    color:  #2952a3;
 }
            
-           .ce-2{
-                font-size: 20px;
-                line-height: 1.5;
-            }
+.ce-2{
+   font-size: 20px;
+   line-height: 1.5;
+   
+.ce-3{
+   font-size: 20px;
+   line-height: 1.5px;
+   text-align: center;
+   color: #2952a3;
+}
 </style>
 
 
@@ -296,7 +302,7 @@ input[type=submit]:hover {
 
 <!---Client Experience Section-->   
 <body>
-    <section id="client experience" style="padding:60px; background-color:#f1f1f1;">
+    <section id="section4" style="padding:60px; background-color:#f1f1f1;">
         <h1 class="ce-1">Client Experience</h1>
             <div class=ce-2>
                 <p class="ce-2">Let's meet Guoqiang, one of the very firest ShareCommunity users.</p>
@@ -314,6 +320,7 @@ input[type=submit]:hover {
                 <p> </p>
                 <p>"I am so glad there is a website like ShareCommunity that offers so much information to people like me. And unlike those girls in the certification centre, the amobassador was so nice and patient. I have also introduced ShareCommunnity to my pals on the construction site, and they all found it pretty useful. " </p>       
             </div>
+         <h4 class="ce-3"> Click <a href="#section5">HERE</a> if you need help or want to share your story as well. </h4>
      </section> 
 </body>
 
