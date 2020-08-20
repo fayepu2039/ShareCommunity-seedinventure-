@@ -132,7 +132,7 @@
 }
    .ce-3{
       font-size: 20px
-      line-height: 1.5px;、
+      line-height: 1.5px;
       text-align: left
 }
       
@@ -159,16 +159,19 @@
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="intro">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="features">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Gallery</a>
+                            <a class="nav-link" href="information">Information</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="client experience">Client Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact us">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -203,7 +206,7 @@
               </section>
 
 
-
+<section id="information>
 <div class="grid-container">
   <div><h2 class = "medium-font" > Local Community Network </h2>
 <p>Just move in to a new community? Do not worry. We will help you to connect with neighbours and build lasting relationships. </p> </div>
@@ -259,12 +262,10 @@
     </div>
   </div>
 </div>
-
+</section>
 
 
 <!---Client Experience Section-->   
-
-
     <section id="client experience" class="container" style="padding:60px; background-color:#f1f1f1;">
         <h1 class="ce-1 large-font font-weight-bold">Client Experience</h1>
             <div class=ce-2>
