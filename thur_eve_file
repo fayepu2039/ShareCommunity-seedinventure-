@@ -140,7 +140,7 @@ html, body, header, #intro {
     height: 100%;
     }
 
-    .intro {
+    .intro-img {
     background: url("https://img.mp.sohu.com/upload/20170615/aec3ca38382f4c1eb1e4bf3bd5eb397a_th.png") 
     no-repeat center center fixed;
     background-size: cover;
@@ -182,7 +182,7 @@ html, body, header, #intro {
 
 <header>
 <section id="intro">
-            <divclass="intro">
+            <div class="intro-img">
                 <div class="container-fluid d-flex align-items-center justify-content-center h-100">
                     <div class="row d-flex justify-content-center text-center">
                         <div class="col-md-10">
