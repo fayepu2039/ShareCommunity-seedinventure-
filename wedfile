@@ -113,31 +113,28 @@
       background-color: #f2f2f2;
       padding: 64px;
 } 
-    }
     
-    .center {
-       display: block;
-       margin-left: auto;
-       margin-right: auto;
-       width:50%;
-    }
-               
+    .centre{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width:80%;
+      height: auto;
+}
+   .ce-1{
+      text-align: center;
+      font-size: 48px;
+}
     
-
-    .ce-1{
-   text-align: left;
-   font-size: 48px;;
-    }
-    .ce-2{
-    font-size: 20px;
-    line-height: 1.5;
-    }
-    .ce-3{
-    font-size: 20px;
-    line-height: 1.5px;
-    text-align: left;
-    }
-   
+   .ce-2{
+      font-size: 20px;
+      line-height: 1.5;
+}
+   .ce-3{
+      font-size: 20px
+      line-height: 1.5px;、
+      text-align: left
+}
       
 </style>
 
@@ -268,59 +265,62 @@
 <!---Client Experience Section-->   
 
 
-    <section class= "container" id="client experience" style="padding:60px; background-color:#f1f1f1;">
-        <h1 class="ce-1 large-font font-weight-bold" >Client Experience</h1>
+    <section id="client experience" class="container" style="padding:60px; background-color:#f1f1f1;">
+        <h1 class="ce-1 large-font font-weight-bold">Client Experience</h1>
             <div class=ce-2>
                 <p class="ce-2">Let's meet Guoqiang, one of the very firest ShareCommunity users.</p>
-                <img src="http://www.3farmer.com/uploads/allimg/180516/23022WY2-0.jpg"alt="Guoqiang" class="centre"></img>
-                <p> </p>
-                <p>  Guoqiang had been living in one of the rural counties near by Shanghai for centuries with his family. He and his family grew and sold crops and vegetable for living, and Guoqiang worked as a contracted constructor from time to time.</p>
-                <p> </p>
+                <img src="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/820xauto/public/chinese_construction_workers_srilanka_bri_gettyimages-1071307478_editorial_credit_paulabronstein-stringer.jpg?itok=Wu5R14Br"alt="Guoqiang" class="centre"></img>
+                <p>Guoqiang had been living in one of the rural counties near by Shanghai for decades with his family. He and his family grew and sold crops and vegetable for living, and Guoqiang worked as a contracted constructor from time to time.</p>
                 <p>Half a year ago, a paper titled Notice of House Removal changed Guoqiang and his family’s life. As his house was demolished due the rapid urbanization in his and the nearby counties, he and his family were relocated to a newly-built neighbourhood in inner suburb of Shanghai. </p>
-                <p> </p>
                 <p>As one of the rural-to-urban migrants, Guoqiang was nervour, rather than excited, about the new life.  </p>
-                <p> </p>
                 <p>"I had no idea what my life is going to be like or how to settle down," says Guoqiang, "Me and my wife needed jobs. My mom was complaining about leaving the county and having nothing to do at home. What worried me the most, was finding a new school for [my daughter]. At the same time, there were all sorts of papers I had to fill out." </p>
-                <p> </p>
                 <p>Knowing Guoqiang's situation, the neighbourhood committee introduced him with ShareCommunity and one of the on-site ambassadors, who helped Guoqiang navigate the website. </p>
-                <p> </p>
                 <p>"I am so glad there is a website like ShareCommunity that offers so much information to people like me. And unlike those girls in the certification centre, the amobassador was so nice and patient. I have also introduced ShareCommunnity to my pals on the construction site, and they all found it pretty useful. " </p>       
-                <p></p>
-              </div>
-        <h4 class="ce-2"> Click <a href="#section5" ce-1 style="color: maroon;" >HERE</a> if you need help or want to share your story as well. </h4>
+            </div>
+        <h4 class="ce-3"> Click <a href="#section5">HERE</a> if you need help or want to share your story as well. </h4>
      </section> 
 
 
   
+<!---Contact Us Section----------------------------->   
+     <section id="contact us">  
+         <div style="padding:64px; padding-bottom: 0px;">
+            <h1 class="medium-font">Contact Us</h2>
+            <p style="color: #000">Have questions? Contact us today to discuss how we can help you!</p >
+         </div>
+        
+        <div class="container1 de-flex align-item center">
+            <form action="/action_page.php">
+                <div class="row">
+                    <div class="col-md-12">
+                            <label for="fname">Full Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name.">  
+                    </div>
+                    <div class="col-md-12">
+                        <label for="Email Address">Email Address</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your Email">
+                    </div>
+                    <div class="col-md-12 mb-2">
+                        <label for="select-beast">I'm Interested In:</label>
+                        <select id="select-beast" class="demo-default" placeholder="Select a service.">
+                        <option value="Eduction">Education</option>
+                        <option value="Documentation">Documentation</option>
+                        <option value="Entertainment">Entertainment</option>
+                        <option value="Community Network">Community Network</option>
+                        </select>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="Message">Message</label>
+                        <textarea id="Message" name="Message" placeholder="Hi, I need help with..." style="height:100px"></textarea>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="submit" value="Submit">
+                    </div>
+                </div>
+            </form>
+          </div>
 
-<div class="container">
-  
-  <h1 class="medium-font">Contact Us</h2>
-  <p style="color: #000">Have questions? Contact us today to discuss how we can help you!</p >
-
-<div class="container1">
-  <form action="/action_page.php">
-    <label for="fname">Full Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name.">
-    
-    <label for="Email Address">Email Address</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your Email">
-    
-    <label for="select-beast">I'm Interested In:</label>
-    <select id="select-beast" class="demo-default" placeholder="Select a service.">
-      <option value="Eduction">Education</option>
-      <option value="Documentation">Documentation</option>
-      <option value="Entertainment">Entertainment</option>
-      <option value="Community Network">Community Network</option>
-    </select>
-
-    <label for="Message">Message</label>
-    <textarea id="Message" name="Message" placeholder="Write something." style="height:100px"></textarea>
-
-    <input type="submit" value="Submit">
-  </form>
-</div>
-
+     </section>
 </body>
 
 </html>
